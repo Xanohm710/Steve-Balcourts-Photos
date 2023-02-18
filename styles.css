@@ -44,7 +44,7 @@ body {
 
 .bio-container h1 {
   text-align: center;
-  font-size: 42px;
+  font-size: 49px;
 }
 
 .bio-container p {
@@ -52,4 +52,38 @@ body {
   font-size: 20px;
   max-height: 300px;
   max-width: 1200px;
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.gallery-example {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+
+.gallery-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-page button {
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 250px;
 }
