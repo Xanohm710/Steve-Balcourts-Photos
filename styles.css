@@ -87,3 +87,12 @@ body {
   justify-content: flex-end;
   height: 250px;
 }
+
+.gal-pages {
+  display: flex;
+  max-width: 2400px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
