@@ -117,3 +117,25 @@ body {
   justify-content: center;
   margin-top: 125px;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  height: 800px;
+}
+
+.contact-container p {
+  text-align: center;
+  font-size: 22px;
+  width: 750px;
+}
