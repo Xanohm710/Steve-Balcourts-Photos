@@ -96,3 +96,24 @@ body {
   font-weight: bold;
 }
 
+.print-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.print-info h1 {
+  font-size: 65px;
+}
+
+.print-info p {
+  font-size: 20px;
+  max-width: 1200px;
+}
+
+.print-info-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+}
