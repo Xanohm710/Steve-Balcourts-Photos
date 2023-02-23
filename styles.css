@@ -4,6 +4,17 @@ body {
     box-sizing: border-box;
     height: 100%;
     margin: 0;
+    font-family: alberston;
+}
+
+@font-face {
+  font-family: alberston;
+  src: url('fonts/albertson-webfont.woff');
+}
+
+@font-face {
+  font-family: lobster;
+  src: url('fonts/IronickNF.ttf');
 }
 
 .header-container-1 {
@@ -13,12 +24,13 @@ body {
     align-items: center;
     padding: 8px;
     height: 80px;
+    font-family: alberston;
 }
 
 .logo {
     color: white;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 50px;
   }
   
   ul {
@@ -31,7 +43,7 @@ body {
   a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
   }
 
 .bio-container {
@@ -43,13 +55,15 @@ body {
 }
 
 .bio-container h1 {
+  font-family: lobster;
   text-align: center;
-  font-size: 49px;
+  font-size: 75px;
 }
 
 .bio-container p {
+  font-family: lobster;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   max-height: 300px;
   max-width: 1200px;
 }
