@@ -1,57 +1,56 @@
 body {
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
-    height: 100%;
-    margin: 0;
-    font-family: alberston;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-family: alberston;
 }
 
 @font-face {
   font-family: alberston;
-  src: url('fonts/albertson-webfont.woff');
+  src: url("fonts/albertson-webfont.woff");
 }
 
 @font-face {
   font-family: lobster;
-  src: url('fonts/IronickNF.ttf');
+  src: url("fonts/IronickNF.ttf");
 }
 
 .header-container-1 {
-    border: 1px solid white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 8px;
-    height: 80px;
-    font-family: alberston;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  height: 80px;
+  font-family: alberston;
 }
 
 .logo {
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-  }
-  
-  ul {
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
-  }
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
 
-  
-  a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-  }
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
 
 .bio-container {
-    display: flex;
-    height: 1500px;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  height: 1500px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .bio-container h1 {
@@ -81,7 +80,6 @@ body {
   align-items: center;
   height: 600px;
 }
-
 
 .gallery-page {
   display: flex;
@@ -136,7 +134,7 @@ body {
 }
 
 .print-info p {
-  font-size: 20px;
+  font-size: 25px;
   max-width: 1200px;
 }
 
@@ -144,6 +142,10 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 125px;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .contact {
@@ -175,10 +177,10 @@ body {
 
 .zoom {
   padding: 50px;
-  transition: transform .2s; 
+  transition: transform 0.2s;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(2); 
+  transform: scale(2);
 }
