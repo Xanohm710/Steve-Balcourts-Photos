@@ -48,7 +48,7 @@ body {
 
 .bio-container {
     display: flex;
-    height: 900px;
+    height: 1500px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
