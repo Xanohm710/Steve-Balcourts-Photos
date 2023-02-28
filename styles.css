@@ -81,6 +81,13 @@ a {
   height: 600px;
 }
 
+.gallery-example p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
 .gallery-page {
   display: flex;
   align-items: center;
@@ -109,6 +116,7 @@ a {
   font-size: 20px;
   margin-top: -25px;
 }
+
 
 .site-by a {
   font-size: 20px;
@@ -182,5 +190,5 @@ a {
 }
 
 .zoom:hover {
-  transform: scale(2);
+  transform: scale(1.25);
 }
