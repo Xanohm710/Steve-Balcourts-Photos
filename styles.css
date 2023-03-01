@@ -67,6 +67,25 @@ a {
   max-width: 1200px;
 }
 
+.bio-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-right: 130px;
+  margin-top: 130px;
+}
+
+.bio-img-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border: 1px solid white;
+}
+
 .gallery-header {
   display: flex;
   justify-content: center;
