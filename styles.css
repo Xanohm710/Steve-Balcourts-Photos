@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
   color: white;
@@ -189,13 +190,14 @@ a {
   gap: 200px;
   align-items: center;
   height: 800px;
+  max-width: auto;
+  margin-right: 125px;
 }
 
 .contact-container p {
   text-align: center;
   font-size: 25px;
-  width: 750px;
-  flex: 1;
+  width: 800px;
 }
 
 .active {
@@ -215,12 +217,31 @@ a {
 
 .contact-img {
   display: flex;
-  flex: 1;
+  flex-direction: column;
   justify-content: flex-end;
 }
 
+.img-1-info {
+ display: flex;
+ justify-content: center;
+ font-size: 23px; 
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-img-2 {
-  flex: 1;
   align-items: center;
   justify-content: center;
+  width: 294px;
+  text-align: center;
 }
+
+.img-2-info {
+  display: flex;
+  justify-content: center;
+  font-size: 23px; 
+ }
