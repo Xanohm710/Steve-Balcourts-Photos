@@ -209,6 +209,11 @@ a {
   width: 800px;
 }
 
+.contact-container a {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
 .active {
   background-color: white;
   color: black;
